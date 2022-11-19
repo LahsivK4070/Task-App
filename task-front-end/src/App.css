@@ -1,0 +1,86 @@
+/* Login Page */
+
+.login-container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper{
+    width: 300px;
+}
+
+.login-btn{
+    width: 100%
+}
+
+.login-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#InputEmail{
+    margin-bottom: 1rem;
+}
+
+.signup-ques{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Signup Page */
+
+.signup-container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-wrapper{
+    width: 300px;
+}
+
+.signup-btn{
+    width: 100%
+}
+
+.signup-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#sname, #semail{
+    margin-bottom: 1rem;
+}
+
+.signup-ques{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Tasks */
+.task-heading{
+    text-align: center;
+}
+
+/* Navbar */
+.container-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.edit-task{
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.edit, .delete{
+    cursor: pointer;
+}
